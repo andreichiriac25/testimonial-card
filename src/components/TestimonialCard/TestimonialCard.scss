@@ -1,0 +1,51 @@
+.testimonial-card {
+  width: 340px;
+  border-radius: 8px;
+  background-color: white;
+  margin: auto;
+  padding: 24px;
+  top: 40px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  .header {
+    display: flex;
+    align-items: center;
+
+    &-first {
+      width: 60px;
+    }
+
+    &-second {
+      margin-left: 20px;
+      display: flex;
+      flex-direction: column;
+      height: 60px;
+      overflow: hidden;
+
+      .name {
+        font-size: 20px;
+        font-weight: bold;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+
+      .user-name {
+        font-size: 16px;
+        color: rgb(40, 40, 40);
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+    }
+  }
+
+  .description {
+    margin-top: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 120px;
+  }
+}
